@@ -2,52 +2,157 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Hello XklienZ</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>XklienZ</title>
   </head>
   <body>
-    <div class="boxprofile">
-      <div class="profile">
-        <div class="avatar_container">
-          <div class="avatar_border">
-            <img class="avatar" src="img/avatar/avatar.jpg" />
-          </div>
-        </div>
-        <h1>XklienZ</h1>
-        <p class="identifier">Hello XZ:</p>
+    <nav class="navbr">
+      <a href="#" class="navbr-profile">PORTFOLIO</a>
+
+      <div class="navbr-nv">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Project</a>
+        <a href="#contact">Contact</a>
       </div>
-    </div>
-    <div class="boxlist">
-      <div class="boxstroke">
-        <div class="listview">
-          <div class="list">
-            <div class="logo">
-              <a
-                href="https://facebook.com/XklienZ"
-                target="_blank"
-                title="Facebook"
-              >
-                <img class="icon" src="img/icon/facebook.svg" />
-              </a>
-              <a
-                href="https://instagram.com/XklienZ"
-                target="_blank"
-                title="Instagram"
-              >
-                <img class="icon" src="img/icon/instagram.svg" />
-              </a>
-              <a
-                href="https://matrix.to/#/@xklienz:matrix.org"
-                target="_blank"
-                title="Element/Matrix"
-              >
-                <img class="icon" src="img/icon/Element.svg" />
+
+      <div class="menu-icon">
+        <span id="list-icon">
+          <img src="icon/menu2.png" alt="">
+        </span>
+      </div>
+    </nav>
+
+    <section class="hsection" id="home">
+      <video autoplay muted loop>
+        <source src="vid/output.mp4">
+      </video>
+
+      <main class="home-content">
+        <h3>Halo, saya</h3>
+        <h1>XklienZ</h1>
+        <br />
+        <i>
+          <p>
+            Berikan saya waktu dan kebebasan maka akan saya buatkan project yang
+            membuat saingan Anda jadi berantakan.
+          </p>
+        </i>
+      </main>
+      
+      <main class="home-img">
+        <img src="img/avatar.png" alt="XklienZ Image" />
+      </main>
+    </section>
+
+    <section id="about" class="about">
+      <h2 class="header-title">About <span>XklienZ</span></h2>
+      
+      <div class="row">
+        <div class="about-img">
+          <img src="img/avatar.jpg" alt="Tentang XklienZ" />
+        </div>
+        <div class="content">
+          <p>
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxx:
+            <ul>
+              <li>xxxxxxxxxx</li>
+              <li>xxxxxxxx</li>
+              <li>xxxxxxxxxxxxxxxx</li>
+            </ul>
+          </p>
+          <p>
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="menu">
+      <h2 class="header-title">Showcase <span>Project</span></h2>
+
+      <div class="row">
+        <div class="menu-card menu-content">
+          <div class="menu-card-title">
+            <h3>VIDEO EDITOR</h3>
+            <img src="icon/video.svg" alt="menu" class="menu-card-img" />
+          </div>
+          <div class="img-content">
+            <img src="img/project-amv_typo.png" alt="menu" class="menu-card-img" />
+            <p>Creating AMV Typography or video editing for content creators.</p>
+          </div>
+          <a class="view-btn" href="https://instagram.com/xklienz" target="_blank">LIHAT</a>
+        </div>
+
+        <div class="menu-card menu-content mid">
+          <div class="menu-card-title">
+            <h3>BASH SCRIPTING</h3>
+            <img src="icon/bash.svg" alt="menu" class="menu-card-img" />
+          </div>
+          <div class="img-content">
+            <img src="img/project-multi_rename.png" alt="menu" class="menu-card-img" />
+            <p>Creating a BASH script to simplify daily tasks through the Terminal.</p>
+          </div>
+          <a class="view-btn" href="https://github.com/XklienZ" target="_blank">LIHAT</a>
+        </div>
+
+        <div class="menu-card menu-content3">
+          <div class="menu-card-title">
+            <h3>FRONT-END WEB</h3>
+            <img src="icon/code.svg" alt="menu" class="menu-card-img" />
+          </div>
+          <div class="img-content">
+            <img src="img/project_portfolio.png" alt="menu" class="menu-card-img" />
+            <p>Making a simple website using HTML5, CSS, JavaScript.</p>
+          </div>
+          <a class="view-btn" href="#">LIHAT</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="closing">
+        <div class="container1">
+          <h1>Don't Cry..</h1>
+        </div>
+
+        <div class="container2">
+          <h2 class="header-title">Contact <span>XklienZ</span></h2>
+          <div class="contact">
+            <div class="img">
+              <a href="https://github.com/XklienZ" target="_blank">
+                <img class="avatar" src="img/XklienZ.jpg" alt="">
               </a>
             </div>
+            <a href="https://matrix.to/#/@xklienz:matrix.org" target="_blank">
+              <img class="icon element" src="icon/element.png" alt="element">
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=xklienz73@gmail.com" target="_blank">
+              <img class="icon email" src="icon/email.png" alt="email">
+            </a>
+            <a href="https://www.facebook.com/XklienZ" target="_blank">
+              <img class="icon facebook" src="icon/facebook.png" alt="facebook">
+            </a>
+            <a href="https://instagram.com/xklienz" target="_blank">
+              <img class="icon instagram" src="icon/instagram.png" alt="instagram">
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
