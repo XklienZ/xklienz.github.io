@@ -32,6 +32,8 @@
       </div>
     </nav>
 
+    <div class="float-overlay"></div>
+
     <section class="hsection" id="home">
       <video autoplay muted loop>
         <source src="vid/output.mp4">
@@ -82,10 +84,10 @@
     </section>
 
     <section id="portfolio" class="menu">
-      <h2 class="header-title">Showcase <span>Project</span></h2>
 
+      <h2 class="header-title">Showcase <span>Project</span></h2>
       <div class="row">
-        <div class="menu-card menu-content">
+        <div class="menu-card menu-card1">
           <div class="menu-card-title">
             <h3>VIDEO EDITOR</h3>
             <img src="icon/video.svg" alt="menu" class="menu-card-img" />
@@ -94,10 +96,10 @@
             <img src="img/project-amv_typo.png" alt="menu" class="menu-card-img" />
             <p>Creating AMV Typography or video editing for content creators.</p>
           </div>
-          <a class="view-btn" href="https://instagram.com/xklienz" target="_blank">LIHAT</a>
+          <a class="view-btn" href="https://instagram.com/xklienz" target="_blank">open</a>
         </div>
 
-        <div class="menu-card menu-content mid">
+        <div class="menu-card menu-card2">
           <div class="menu-card-title">
             <h3>BASH SCRIPTING</h3>
             <img src="icon/bash.svg" alt="menu" class="menu-card-img" />
@@ -106,10 +108,21 @@
             <img src="img/project-multi_rename.png" alt="menu" class="menu-card-img" />
             <p>Creating a BASH script to simplify daily tasks through the Terminal.</p>
           </div>
-          <a class="view-btn" href="https://github.com/XklienZ" target="_blank">LIHAT</a>
+          <a class="view-btn" href="https://github.com/XklienZ" target="_blank">open</a>
         </div>
 
-        <div class="menu-card menu-content3">
+        <div class="menu-card menu-card3">
+          <div class="float-container">
+            <h1 class="float-title">View:</h1>
+            <ul>
+              <li>
+                <a href="https://xklienz.github.io/login-page" target="_blank">Login Page</a>
+              </li>
+              <li>
+                <a href="https://xklienz.github.io/login-page/signup.html" target="_blank">Sign up page</a>
+              </li>
+            </ul>
+          </div>
           <div class="menu-card-title">
             <h3>FRONT-END WEB</h3>
             <img src="icon/code.svg" alt="menu" class="menu-card-img" />
@@ -118,7 +131,7 @@
             <img src="img/project_portfolio.png" alt="menu" class="menu-card-img" />
             <p>Making a simple website using HTML5, CSS, JavaScript.</p>
           </div>
-          <a class="view-btn" href="#">LIHAT</a>
+          <a id="float-btn" class="view-btn float-btn">open</a>
       </div>
     </section>
 
